@@ -7,7 +7,7 @@ terraform {
   cloud {
     organization = "atreviso"
     workspaces {
-      name = "ilegra-mentoria"
+      name = "poc-terraform-cloud-prd"
     }
   }
 }
