@@ -7,7 +7,7 @@ terraform {
   cloud {
     organization = "atreviso"
     workspaces {
-      name = "poc-terraform-cloud-prd"
+      name = "poc-terraform-cloud-${var.env}"
     }
   }
 }
