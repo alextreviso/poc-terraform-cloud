@@ -18,3 +18,5 @@ storage_type                = "gp2"
 instance_class              = "db.t3.micro"
 publicly_accessible         = true
 allocated_storage           = "1000"
+
+ecr_name                    = "atreviso"
